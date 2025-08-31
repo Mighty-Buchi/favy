@@ -137,6 +137,7 @@ a {
 
 .con1 .p1{
     color: black;
+    font-weight: 400;
     line-height: 1.2;
 }
 .count1 :nth-child(2) {
