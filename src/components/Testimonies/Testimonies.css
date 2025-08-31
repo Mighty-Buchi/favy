@@ -3,13 +3,14 @@
 .testimonial-card {
   background: #fff;
   border-radius: 12px;
-  padding: 20px;
+  padding: 10px 5px;
   text-align: center;
   border: 1px solid green;
   height: 300px;
   max-width: 40vw;
   margin: auto;
   font-family: Inter;
+  font-size: 14px;
 }
 
 .testimonial-img {
