@@ -1,0 +1,80 @@
+.s-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    margin-bottom: 3em;
+}
+
+.s-section.reverse .service {
+    flex-direction: row-reverse;
+}
+
+.s-section.reverse .service2 {
+    flex-direction: row-reverse;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    gap: 4em;
+}
+
+.service1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.service1 h2 {
+    font-size: 25px;
+    color: rgb(14, 189, 14);
+    margin-bottom: 0.2em;
+}
+
+.service1 h3 {
+    font-weight: 600;
+    color: rgb(19, 18, 18);
+    margin-bottom: 0.4em;
+}
+
+.service2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.service2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+@media(max-width: 750px) {
+    .service {
+        width: 100%;
+        margin: auto 10px;
+        max-width: 1440px;
+        gap: 1em;
+        margin-top: 1em;
+    }
+
+    .service2 img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+}
+@media(max-width: 375px){
+    .service,.s-section.reverse .service{
+        display: flex;
+        flex-direction: column;
+    }
+}

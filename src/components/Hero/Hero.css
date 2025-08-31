@@ -1,0 +1,145 @@
+.Hero {
+    background: white;
+    font-family: Playfair Display;
+}
+
+.heroparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90svh;
+}
+
+.con1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    z-index: 1;
+
+}
+
+h1 {
+    font-size: 5em;
+    color: black;
+}
+
+.p1 {
+    margin-top: 1em;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Fira sans;
+}
+
+.con2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.con2 p {
+    padding: 0.4em 0.8em;
+    color: white;
+    background: #37c941;
+    border-radius: 20px;
+    font-family: Fira sans;
+    transform: rotate(-9deg);
+}
+
+.btn1 {
+    padding: 0.8em 4em;
+    margin: 1.5em 0;
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 35px;
+    width: auto;
+    align-self: center;
+    font-family: Fira sans;
+    background-color: orange;
+    border: none;
+    transition: .25s ease-in-out;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 1.05em;
+    color: black;
+}
+
+.count1 {
+    border: 1px dashed black;
+    border-radius: 10px;
+    margin: 0.1em 1em;
+    padding: 2px 10px;
+}
+
+.count1 p {
+    color: rgb(59, 59, 59);
+}
+
+.count1 :nth-child(1) {
+    font-size: 2em;
+}
+
+.count1 :nth-child(2) {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width: 750px) {
+    svg {
+        display: none;
+    }
+
+    .con2 {
+        display: none;
+    }
+
+    .con1 {
+        display: flex;
+
+    }
+
+    .Hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-image: url('/public/you11.png');
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+    .con1 h1 {
+        font-size: 4em;
+        color: red;
+    }
+    .p1 {
+    margin-top: 1em;
+    color: black;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Fira sans;
+}
+}

@@ -1,0 +1,48 @@
+.process{
+    font-family: inter;
+}
+.process-con {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(55, 201, 65, 0.5);
+    height: 400px;
+    padding: 0.5em;
+    margin: 1em auto;
+    border-radius: 20px;
+}
+
+.process-con h2 {
+    margin-bottom: 1em;
+}
+
+.process-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-img img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.process-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    margin: auto;
+}
+
+.processes {
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    gap: 2em;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+}
