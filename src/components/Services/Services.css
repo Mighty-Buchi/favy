@@ -32,12 +32,13 @@
 .service1 h2 {
     font-size: 25px;
     color: rgb(14, 189, 14);
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
 }
 
 .service1 h3 {
     font-weight: 600;
-    color: rgb(19, 18, 18);
+     /* color: hsl(0, 0%, 50%); */
+     color: black;
     margin-bottom: 0.4em;
 }
 
@@ -55,11 +56,15 @@
     object-fit: cover;
     box-sizing: border-box;
 }
+.service1 p{
+    font-size: 13px;
+    color: #333333;
+}
 
 @media(max-width: 750px) {
     .service {
         width: 100%;
-        margin: auto 10px;
+        margin: auto 15px;
         max-width: 1440px;
         gap: 1em;
         margin-top: 1em;
@@ -67,14 +72,18 @@
 
     .service2 img {
         width: 100%;
-        height: 300px;
+        height: 200px;
         object-fit: cover;
         box-sizing: border-box;
     }
 }
-@media(max-width: 375px){
+@media(max-width: 491px){
     .service,.s-section.reverse .service{
         display: flex;
         flex-direction: column;
     }
+    /* .service2{
+        overflow: hidden;
+        background-color: brown;
+    } */
 }

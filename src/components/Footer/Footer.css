@@ -104,3 +104,9 @@
         margin: auto;
     }
 }
+@media(max-width: 495px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+}

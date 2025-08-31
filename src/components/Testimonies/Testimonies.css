@@ -7,7 +7,7 @@
   text-align: center;
   border: 1px solid green;
   height: 300px;
-  max-width: 30vw;
+  max-width: 40vw;
   margin: auto;
   font-family: Inter;
 }
@@ -59,4 +59,12 @@
 
 .tes{
   position: relative;
+}
+
+
+@media(max-width: 750px){
+  .testimonial-card{
+    max-width: 40vw;
+    height: 250px;
+  }
 }

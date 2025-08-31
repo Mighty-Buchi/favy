@@ -57,6 +57,7 @@ li a{
     padding: 0.8em 1em;
     border-radius: 25px;
     border: none;
+    outline: none;
     font-weight: 500;
 }
 a:hover, button:hover{
