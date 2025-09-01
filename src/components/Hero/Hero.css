@@ -93,6 +93,7 @@ h1 {
 
 .count1 :nth-child(1) {
     font-size: 2em;
+    
 }
 
 .count1 :nth-child(2) {
@@ -125,20 +126,32 @@ a {
         align-items: center;
         background-size: cover;
         background-position: center;
-        background-image: linear-gradient(rgba(251, 253, 252, 0.116), rgba(255, 255, 255, 0.411)), url('/public/you11.png');
+        background-image: linear-gradient( rgba(3, 77, 19, 0.308),rgba(0, 0, 0, 0.664)), url('/public/you11.png');
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
     }
 
     h1 {
-    color: black;
+    color: white;
+}
+.count1 :nth-child(1) {
+    color: white;
+    
+}
+.count1 p {
+    color: rgb(185, 183, 183);
+}
+.count1 {
+    border: 1px rgb(228, 226, 226) dashed;
 }
 
+
 .con1 .p1{
-    color: black;
-    font-weight: 400;
-    line-height: 1.2;
+    color: white;
+    line-height: 1.3;
+    font-size: 1.1em;
+    padding-bottom: 1em;
 }
 .count1 :nth-child(2) {
     color: orange;

@@ -47,7 +47,7 @@ const testimonials = [
 
 export default function Testimonies() {
   return (
-    <div data-aos="zoom-out" className="tes">
+    <div data-aos="zoom-in" className="tes">
           <Swiper
       modules={[Pagination, Navigation, Autoplay]}
       spaceBetween={30}
