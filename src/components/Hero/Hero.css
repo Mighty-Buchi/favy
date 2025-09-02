@@ -125,7 +125,7 @@ a {
         align-items: center;
         background-size: cover;
         background-position: center;
-        background-image: linear-gradient(rgba(255, 253, 245, 0.7), rgba(255, 253, 245, 0.7)), url('/youghurt11.png');
+        background-image: linear-gradient(rgb(240, 194, 0.6), rgba(255, 253, 245, 0.8)), url('/youghurt11.png');
     }
 
 
@@ -136,7 +136,7 @@ a {
     }
 
     .count1 :nth-child(2) {
-        color: orange;
+        color: green;
         font-size: 1em;
         font-weight: 700;
     }
@@ -176,7 +176,7 @@ a {
         padding-top: 70px;
     }
     .con1 h1 {
-        font-size: 3em;
+        font-size: 3.5em;
     }
 
     .con1 .p1 {

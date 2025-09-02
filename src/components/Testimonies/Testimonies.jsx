@@ -5,6 +5,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import './Testimonies.css'
 import y from '../../assets/youghurt11.png'
+import a from '../../assets/2.jpg'
+
 
 const testimonials = [
   {
@@ -22,7 +24,7 @@ const testimonials = [
   {
     name: "Charlie",
     text: "The cake was soft, moist, and very delicious. It had that authentic Nigerian taste that you hardly find abroad.",
-    image: y,
+    image: a,
     rating: 5,
   },
   {
@@ -60,7 +62,7 @@ export default function Testimonies() {
         nextEl: ".custom-next",
         prevEl: ".custom-prev"
       }}
-      pagination={{ clickable: true }}
+      // pagination={{ clickable: true }}
       autoplay={{ delay: 4000 }}
       loop
     >
