@@ -6,7 +6,7 @@
   padding: 10px 5px;
   text-align: center;
   border: 1px solid green;
-  height: 300px;
+  height: 250px;
   max-width: 40vw;
   margin: auto;
   font-family: Inter;
@@ -50,7 +50,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -65,8 +65,9 @@
 
 @media(max-width: 750px){
   .testimonial-card{
-    max-width: 40vw;
-    height: 250px;
+    max-width: 50vw;
+    height: 300px;
+    margin: 0 10px;
   }
   .custom-prev, .custom-next{
     display: none;

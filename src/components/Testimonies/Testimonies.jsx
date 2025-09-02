@@ -9,25 +9,25 @@ import y from '../../assets/youghurt11.png'
 const testimonials = [
   {
     name: "miss Tope",
-    text: "I’m so glad I found this brand. Every single product I’ve tried so far has been fresh, tasty, and well-packaged. It honestly feels like a piece of home.",
+    text: "I’m so glad I found this brand. Every single product I’ve tried so far has been fresh, tasty, and well-packaged.",
     image: y,
     rating: 5,
   },
   {
     name: "Dayo",
-    text: "Your chin chin flakes remind me of my childhood for Naija.That crunchy feel that dosen`t get one tired. I carry am go office, my colleagues rush it like theres no tomorrow.",
+    text: "Your chin chin flakes remind me of my childhood for Naija. I carry am go office, my colleagues rush it like theres no tomorrow.",
     image: y,
     rating: 5,
   },
   {
     name: "Charlie",
-    text: "he cake was soft, moist, and very delicious. It had that authentic Nigerian taste that you hardly find abroad. My family enjoyed every bite.",
+    text: "The cake was soft, moist, and very delicious. It had that authentic Nigerian taste that you hardly find abroad.",
     image: y,
     rating: 5,
   },
   {
     name: "Diana",
-    text: "I ordered small chops for my daughter’s birthday, and it was a hit! The samosas were well-filled, the puff puff was soft, and everything tasted amazing. Guests kept asking where I got them from",
+    text: "I ordered small chops for my daughter’s birthday, and it was a hit! The samosas were well-filled, the puff puff was soft, and everything tasted amazing.",
     image: y,
     rating: 5,
   },
