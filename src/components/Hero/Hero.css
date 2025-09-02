@@ -125,7 +125,7 @@ a {
         align-items: center;
         background-size: cover;
         background-position: center;
-        background-image: linear-gradient(rgb(240, 194, 0.6), rgba(255, 253, 245, 0.8)), url('/youghurt11.png');
+        background-image: linear-gradient(rgb(240, 194, 0.5), rgba(255, 253, 245, 0.8)), url('/youghurt11.png');
     }
 
 

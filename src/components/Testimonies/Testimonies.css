@@ -67,7 +67,7 @@
   .testimonial-card{
     max-width: 50vw;
     height: 300px;
-    margin: 0 10px;
+    margin: 10px 10px;
   }
   .custom-prev, .custom-next{
     display: none;

@@ -7,6 +7,7 @@ import {FaUsers, FaBeer} from 'react-icons/fa'
 const Hero = () => {
     return (
         <div data-aos="zoom-in" className='Hero'>
+            
             <div className="heroparent">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

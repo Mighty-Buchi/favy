@@ -24,6 +24,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
+    <>
     <div className={`Header ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
         <Link to='Hero' offset={-300} ><img src={logo} alt="" /></Link>
@@ -41,6 +42,7 @@ const Header = () => {
 
       </div> */}
     </div>
+    </>
   )
 }
 
