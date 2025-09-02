@@ -27,11 +27,9 @@ h1 {
 }
 
 .p1 {
-    margin-top: 1em;
     color: black;
     font-size: 18px;
-    line-height: 1.4;
-    font-family: Fira sans;
+    font-family: Inter;
 }
 
 .con2 {
@@ -118,6 +116,7 @@ a {
     .con1 {
         display: flex;
 
+
     }
 
     .Hero {
@@ -126,10 +125,7 @@ a {
         align-items: center;
         background-size: cover;
         background-position: center;
-        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('/public/you11.png');
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url('/youghurt11.png');
     }
 
 
@@ -141,20 +137,78 @@ a {
 
     .count1 :nth-child(2) {
         color: orange;
-        font-size: 1.5em;
-        font-weight: 500;
+        font-size: 1em;
+        font-weight: 700;
     }
 }
 
 @media(max-width: 500px) {
     .con1 h1 {
-        font-size: 4em;
-        padding-right: 0;
-        padding-left: 0;
-        margin-right: 0;
-        margin-left: 0;
+        font-size: 3.2em;
     }
+
+    .con1 .p1 {
+        margin-top: 1.5em;
+        font-size: 17px;
+        font-family: Inter;
+        line-height: 1;
+    }
+
+    .heroparent {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .count1 p {
+    color: grey;
+    font-size: 16px;
+}
+.count1 {
+    border: 1px dashed black;
+    border-radius: 10px;
+    margin: 0em 0.5em;
+    padding: 1px 7px;
+}
 
 }
 
-@media(max-width: 375px) {}
+@media(max-width: 375px) {
+    .con1 h1 {
+        font-size: 3em;
+    }
+
+    .con1 .p1 {
+        margin-top: 1.5em;
+        font-size: 16px;
+        font-family: Inter;
+        line-height: 1;
+    }
+    .btn1 {
+    padding: 0.5em 3.4em;
+    margin: 1.5em 0;
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 35px;
+    width: auto;
+    align-self: center;
+    font-family: Fira sans,Roboto;
+    background-color: orange;
+    border: none;
+    transition: .25s ease-in-out;
+}
+.count1 {
+    border: 1px dashed black;
+    border-radius: 10px;
+    margin: 0em 0.5em;
+    padding: 1px 3px;
+}
+.count1 :nth-child(1) {
+    font-size: 1.5em;
+
+}
+.count1 p {
+    color: rgb(92, 92, 92);
+    font-size: 15px;
+}
+
+    
+}

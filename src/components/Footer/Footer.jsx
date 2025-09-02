@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="tel:2347072212077"><img src={tel} alt="" /></a>
           <a href=""><img src={locate} alt="" /></a>
           </div>
-          <a className='end-btn' href="https://wa.me/07072212077" target='_blank' rel='noopener noreferrer'>Get Now</a>
+          <a className='end-btn' href="https://wa.me/07072212077" target='_blank' rel='noopener noreferrer'>Message</a>
       </div>
       <div className="contact-links">
         <h2>Useful Links</h2>
