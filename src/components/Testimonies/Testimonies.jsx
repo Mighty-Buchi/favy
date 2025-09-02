@@ -50,7 +50,7 @@ export default function Testimonies() {
     <div data-aos="zoom-in" className="tes">
           <Swiper
       modules={[Pagination, Navigation, Autoplay]}
-      spaceBetween={30}
+      spaceBetween={20}
       slidesPerView={2}
       slidesPerGroup={1}
       breakpoints={{

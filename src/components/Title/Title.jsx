@@ -4,7 +4,7 @@ const Title = ({prefix,header}) => {
   return (
     <div className='title'>
       <p>{prefix}</p>
-      <h2>{header}</h2>
+      <p className='h2'>{header}</p>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import chin1 from '../../assets/youghurt.png'
 import Countup from 'react-countup'
+import {FaUsers, FaBeer} from 'react-icons/fa'
 
 const Hero = () => {
     return (
@@ -11,7 +12,7 @@ const Hero = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 550 150"
                     preserveAspectRatio="none"
-                    style={{ width: "100%", height: "100vh", position: "absolute", opacity: 0.5 }}
+                    style={{ width: "100%", height: "110%", position: "absolute", opacity: 0.5 }}
                 >
                     <path
                         fill=" #37c941"
@@ -25,9 +26,10 @@ const Hero = () => {
                    <a className='btn1' href="http://wa.me/07072212077" rel='noopener noreferrer' target='_blank'>Get Yours</a>
                     <div className='count'>
                         <div className='count1'>
-                            <Countup start={300} end={350} duration={3} />
+                            
+                            <Countup  start={300} end={350} duration={3} />
                             <span>+</span>
-                            <p>satisfied customers</p>
+                            <p> satisfied customers</p>
                         </div>
                         <div className='count1'>
                             <Countup start={200} end={250} duration={4} />

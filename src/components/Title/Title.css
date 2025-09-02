@@ -7,9 +7,13 @@
     font-family: Inter;
     margin: 2em auto;
 }
-.title h2{
-    font-size: 2.5em;
+.title .h2{
+    padding: 0.5em 2em;
+    background-color: #2fa737;
+    color: white;
+    border-radius: 25px;
+    margin-top: 7px;
 }
 .title p{
-    color: #2fa737;
+    color: black;
 }

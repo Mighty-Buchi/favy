@@ -31,7 +31,7 @@ const Header = () => {
       <div className="navbar">
         <ul>
           <li><Link to='Hero' offset={-300} >HOME</Link></li>
-          <li><Link to='service' offset={-100} >SERVICES</Link></li>
+          <li><Link to='service' offset={-100} >PRODUCTS</Link></li>
           <li><Link to='process' offset={-200} >PROCESS</Link></li>
           <li><Link to='tes' offset={-100} >TESTIMONIES</Link></li>
           <a className='button' href="https://wa.me/07072212077" target='_blank' rel='noopener noreferrer' >ORDER NOW</a>
