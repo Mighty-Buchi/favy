@@ -125,7 +125,7 @@ a {
         align-items: center;
         background-size: cover;
         background-position: center;
-        background-image: linear-gradient(rgb(240, 194, 0.5), rgba(255, 253, 245, 0.8)), url('/youghurt11.png');
+        background-image: linear-gradient(rgba(240, 196, 0, 0.863), rgba(255, 253, 245, 0.8)), url('/youghurt11.png');
     }
 
 
@@ -137,8 +137,8 @@ a {
 
     .count1 :nth-child(2) {
         color: green;
-        font-size: 1em;
-        font-weight: 700;
+        font-size: 1.2em;
+        font-weight: 800;
     }
 }
 
@@ -151,7 +151,7 @@ a {
         margin-top: 1.5em;
         font-size: 17px;
         font-family: Inter;
-        line-height: 1;
+        line-height: 1.2;
     }
 
     .heroparent {
@@ -183,7 +183,7 @@ a {
         margin-top: 1.5em;
         font-size: 16px;
         font-family: Inter;
-        line-height: 1;
+        line-height: 1.2;
     }
     .btn1 {
     padding: 0.5em 3.4em;
