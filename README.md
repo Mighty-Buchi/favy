@@ -24,3 +24,8 @@ favy is a modern small scale E-commerce web application built to provider users 
 </p>
 
 
+### Link to live preview here👇
+
+[ favy-eta.vercel.app ]
+
+
